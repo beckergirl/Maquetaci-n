@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main{
+
+  height: 100vh;
+
+}
+.padre{
+
+  width: 100%;
+  height: 100%;
+
+}
+.hijo--cabeceraNegra{
+
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  width: 100%;
+  height: 12%;
+  
+}
+.home{
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color:  white;
+
+  width: 33%;
+}
+.galeria{
+
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  flex-wrap: wrap;
+  font-family: Arial, Helvetica, sans-serif;
+  color:  white;
+  /* height: 50%; */
+  width: 33%;
+}
+.blog{
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color:  white;
+/*   height: 50%; */
+  width: 33%;
+}
+.hijo--transparente{
+
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  width: 100%;
+  height: 10%;
+}
+
+.hijo--cuerpoBlanco{
+
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 78%;
+  
+}
+.caja{
+
+  width: 15%;
+  height: 100%;
+}
+.caja--texto{
+
+  width: 50%;
+  height: 100%;
+}
+.caja--fotografia{
+
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  width: 35%;
+}
+.fotografia{
+
+  display: flex;
+  flex: start;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  height: 90%;
+
+
+
+}
+.texto{
+
+  display: flex;  
+  justify-content:space-between;
+  flex-direction:column;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  width: 80%;
+  height: 40%;
+  
+}
+

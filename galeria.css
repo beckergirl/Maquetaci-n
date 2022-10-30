@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main{
+
+  height: 100vh;
+
+}
+.padre{
+
+  width: 100%;
+  height: 100%;
+
+}
+.hijo--cabeceraNegra{
+
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  width: 100%;
+  height: 12%;
+  
+}
+.home{
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color:  white;
+
+  width: 33%;
+}
+.galeria{
+
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  flex-wrap: wrap;
+  font-family: Arial, Helvetica, sans-serif;
+  color:  white;
+  width: 33%;
+}
+.blog{
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color:  white;
+  width: 33%;
+}
+.hijo--galeria1{
+
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 44%;
+}
+
+.hijo--galeria2{
+
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 44%;
+  
+}
+.fotografia{
+
+    display: flex;
+    justify-content: space-between;
+    width: 33.33%;
+    height: 100%;
+}
