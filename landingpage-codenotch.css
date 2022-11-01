@@ -1,0 +1,170 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main{
+
+  height: 100vh;
+
+}
+.padre{
+
+  width: 100%;
+  height: 100%;
+
+}
+.hijo--cabecera{
+
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  width: 100%;
+  height: 9%;
+  
+}
+.logotipo{
+
+  align-items: center;
+  width: 20%;
+  height: 38%;
+  padding-left: 5%;
+
+}
+.cursos{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color:  rgb(255, 255, 255);
+
+  width: 20%;
+}
+.porqueNosotros{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  flex-wrap: wrap;
+  font-family: Arial, Helvetica, sans-serif;
+  color:  rgb(255, 255, 255);
+  width: 20%;
+}
+.contrataTalento{
+
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  flex-wrap: wrap;
+  font-family: Arial, Helvetica, sans-serif;
+  color:  rgb(255, 255, 255);
+  width: 20%;
+}
+.aplica{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color:  rgb(255, 255, 255);
+  width: 20%;
+}
+.caja{
+  display: flex;
+  position:relative;
+  flex-direction:row;
+  justify-content: space-between;
+  width: 100%;
+  height: 78%;
+}
+.fondo{
+
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+.textoPrincipal{
+
+  position: absolute;
+  align-content: center;
+  flex-direction:column;
+  justify-content: left;
+  display: flex;
+  padding-top: 10%;
+  padding-left: 10%;
+  text-align: left;
+  font-family:Helvetica bold;
+  font-size: 200%;
+  color: rgb(255, 255, 255);
+  width: 90%;
+  height: 40%;
+}
+.hijo--titulo{
+
+  background-color: rgb(53, 242, 179);
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  text-decoration: none;
+  align-items: center;
+  font-family: Helvetica bold;
+  font-size: large;
+  color:  rgb(0, 0, 0);
+
+  width: 100%;
+  height: 6%;
+}
+.hijo--footer{
+
+  background-color:rgb(53, 242, 179);
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  text-decoration: none;
+  align-items: center;
+  font-family:'Open Sans';
+  font-size: large;
+
+  width: 100%;
+  height: 7%;
+
+}
+.facebook{
+
+  display: flex;
+  justify-content: center;
+
+  text-decoration: none;
+  width: 2%;
+  height: 50%;
+}
+.instagram{
+
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+
+  width: 2%;
+  height: 50%;
+}
+.telefono{
+
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  width: 2%;
+  height: 50%;
+}
+
+
+
