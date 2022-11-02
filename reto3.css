@@ -1,0 +1,235 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+  .main{
+
+  height: 100vh;
+  }
+
+.padre{
+
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+
+    grid-template-columns: [x0]1fr [x1]1fr [x2]1fr [x3]1fr [x4]1fr [x5]1fr [x6]1fr [x7]1fr [x8]1fr [x9]1fr [x10]1fr [x11]1fr [x12]1fr [x13]1fr [x14]1fr[x15]1fr;
+    grid-template-rows: [y0]1fr [y1]1fr [y2]1fr [y3]1fr [y4]1fr [y5]1fr [y6]1fr [y7]1fr;
+}
+.header{
+
+    grid-column-start: x0;
+    grid-column-end: x16;
+
+    grid-row-start: y0 ;
+    grid-row-end: y1;
+
+    background-color: black;
+    color: white;
+    padding-top: 2.5%;
+    text-align: center;
+    font-family: Helvetica bold;
+    font-size:large;
+
+}
+.contenido{
+
+    grid-column-start: x0;
+    grid-column-end: x12;
+
+    grid-row-start: y1;
+    grid-row-end: y7;
+
+    background-color: rgb(117, 134, 248);
+    color: white;
+    font-family: Helvetica;
+
+    /* "guías" como padre */
+    display: grid;
+
+    grid-template-columns: [x0]1fr [x1]1fr [x2]1fr [x3]1fr [x4]1fr [x5]1fr [x6]1fr [x7]1fr [x8]1fr [x9]1fr [x10]1fr;
+    grid-template-rows: [y0]1fr [y1]1fr [y2]1fr [y3]1fr [y4]1fr; 
+}
+.menu{
+
+    grid-column-start: x12;
+    grid-column-end: x16;
+
+    grid-row-start: y1;
+    grid-row-end: y7;
+
+    background-color:rgb(87, 240, 233);
+    color:white;
+    text-align: center;
+    font-family: Helvetica;
+
+    /* "guías" como padre */
+    display: grid;
+
+    grid-template-columns:[x0]1fr;
+    grid-template-rows: [y0]1fr [y1]1fr [y2]1fr [y3]1fr;
+}
+.footer{
+
+    grid-column-start: x0;
+    grid-column-end: x16;
+
+    grid-row-start: y7;
+    grid-row-end: y8;
+
+    background-color: rgb(157, 7, 180);
+    color: white;
+    text-align: center;
+    font-family: Helvetica;
+
+     /* "guías" como padre */
+     display: grid;
+
+     grid-template-columns:[x0]1fr [x1]1fr;
+     grid-template-rows: [y0]1fr;
+
+}
+.texto--contenido{
+
+    grid-column-start: x0;
+    grid-column-end: x11;
+
+    grid-row-start: y0 ;
+    grid-row-end: y2;
+
+   
+    border:solid 2px white;
+    font-family: Helvetica bold;
+    padding-top: 2%;
+    padding-left: 2%;
+    margin: 1%;
+    font-size:large;
+
+}
+.texto1{
+
+    grid-column-start:x0 ;
+    grid-column-end: x8;
+
+    grid-row-start: y2;
+    grid-row-end: y5;
+
+   
+    border:solid 3px white;
+    padding-top: 2%;
+    padding-left: 2%;
+    margin: 1%;
+    font-family: Helvetica;
+
+}
+.texto2{
+
+    grid-column-start: x8;
+    grid-column-end: x11;
+
+    grid-row-start: y2;
+    grid-row-end: y5;
+
+    border:solid 3px white;
+    padding-top: 2%;
+    padding-left: 2%;
+    margin: 2%;
+    font-family: Helvetica;
+   
+}
+.texto--menu{
+
+    grid-column-start: x0;
+    grid-column-end: x1;
+
+    grid-row-start: y0;
+    grid-row-end: y1;
+
+    border:solid 3px white;
+    padding-top: 3%;
+    text-align: center;
+    margin: 2%;
+    font-family: Helvetica bold;
+   
+}
+.menu1{
+
+    grid-column-start: x0;
+    grid-column-end: x1;
+
+    grid-row-start: y1;
+    grid-row-end: y1;
+
+    color: white;
+    background-color: black;
+    padding-top: 10%;
+    text-align: center;
+    margin: 2%;
+    font-family: Helvetica;
+   
+}
+.menu2{
+
+    grid-column-start: x0;
+    grid-column-end: x1;
+
+    grid-row-start: y2;
+    grid-row-end: y3;
+
+    color: white;
+    background-color: black;
+    padding-top: 10%;
+    text-align: center;
+    margin: 2%;
+    font-family: Helvetica;
+   
+}
+.menu3{
+
+    grid-column-start: x0;
+    grid-column-end: x1;
+
+    grid-row-start: y3;
+    grid-row-end: y4;
+
+    color: white;
+    background-color: black;
+    padding-top: 10%;
+    text-align: center;
+    margin: 2%;
+    font-family: Helvetica;
+   
+}
+.footer1{
+
+    grid-column-start: x0;
+    grid-column-end: x1;
+
+    grid-row-start: y0;
+    grid-row-end: y2;
+
+    border:solid 3px rgb(0, 0, 0);
+    padding-top: 3%;
+    text-align: center;
+    margin: 1%;
+    font-family: Helvetica;
+
+}
+.footer2{
+
+    grid-column-start: x1;
+    grid-column-end: x2;
+
+    grid-row-start: y0;
+    grid-row-end: y2;
+
+    border:solid 3px rgb(0, 0, 0);
+    padding-top: 3%;
+    text-align: center;
+    margin: 1%;
+    font-family: Helvetica;
+
+}
+
+
