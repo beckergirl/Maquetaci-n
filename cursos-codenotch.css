@@ -1,0 +1,312 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main{
+
+  height: 100vh;
+
+}
+.padre{
+
+  width: 100%;
+  height: 100%;
+
+}
+.hijo--cabecera{
+
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  width: 100%;
+  height: 9%;
+  
+}
+.logotipo{
+
+  align-items: center;
+  width: 20%;
+  height: 38%;
+  padding-left: 5%;
+
+}
+.cursos{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color:  rgb(255, 255, 255);
+
+  width: 20%;
+}
+.porqueNosotros{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  flex-wrap: wrap;
+  font-family: Arial, Helvetica, sans-serif;
+  color:  rgb(255, 255, 255);
+  width: 20%;
+}
+.contrataTalento{
+
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  flex-wrap: wrap;
+  font-family: Arial, Helvetica, sans-serif;
+  color:  rgb(255, 255, 255);
+  width: 20%;
+}
+.aplica{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color:  rgb(255, 255, 255);
+  width: 20%;
+}
+.cajaFoto{
+  display: flex;
+  position:relative;
+  flex-direction:row;
+  justify-content: center;
+  width: 100%;
+  height: 90%;
+}
+.fondoCaja{
+
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 100%;
+}
+.textoPrincipal{
+
+  position: absolute;
+  align-content: center;
+  flex-direction:column;
+  justify-content: right;
+  display: flex;
+  padding-top: 30%;
+  padding-left: 16%;
+  text-align: left;
+  font-family:Helvetica bold;
+  font-size: 100%;
+  color: white;
+  width: 80%;
+  height: 40%;
+}
+.hijo--titulo{
+
+  background-color: rgb(53, 242, 179);
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  text-decoration: none;
+  align-items: center;
+  font-family: Helvetica bold;
+  font-size: large;
+  color:  rgb(0, 0, 0);
+
+  width: 100%;
+  height: 6%;
+}
+.titulo{
+
+  text-decoration: none;
+  align-items: center;
+  font-family: Helvetica bold;
+  font-size: large;
+  color:  rgb(0, 0, 0);
+  width: 10%;
+  height: 80%;
+
+
+}
+.cohete{
+
+  text-decoration: none;
+  align-items: center;
+  color:  rgb(0, 0, 0);
+  width: 2.5%;
+  height: 80%;
+
+}
+.hijo--footer{
+
+  background-color: rgb(53, 242, 179);
+  display: flex;
+  flex-direction:row;
+  justify-content: right;
+  padding-right: 10%;
+  text-decoration: none;
+  align-items: center;
+  font-family:'Open Sans';
+  font-size: large;
+
+  width: 100%;
+  height: 25%;
+
+}
+.facebook{
+
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  width: 2.5%;
+  height: 72%;
+}
+.instagram{
+
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  text-decoration: none;
+
+  width: 2.5%;
+  height: 72%;
+}
+.telefono{
+
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  text-decoration: none;
+  width: 2.5%;
+  height: 72%;
+}
+.info{
+
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: left;
+  background-color: blue;
+  color: WHITE;
+  font-size: small;
+
+}
+
+.cajanegra{
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction:column;
+  background-color: black;
+  color: azure;
+  width: 100%;
+  height: 120%;
+  align-items: center;
+  font-family: Helvetica;
+
+}
+.masinformacioncursos{
+
+  width: 70%;
+  height: 100%;
+
+}
+.estudios{
+
+  width: 100%;
+  height: 80%;
+
+
+}
+.hijo--cajanegra{
+
+  display: flex;
+  position:relative;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: black;
+}
+.cajanegra--cursos{
+
+  display: flex;
+  position:relative;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  font-family: Helvetica;
+  width: 50%;
+  height: 90%;
+
+} 
+.cajanegra--cursos1{
+
+  display: flex;
+  position:relative;
+  flex-direction:row;
+  justify-content: center;
+  align-items:center;
+  text-align: left;
+  font-family: Helvetica;
+  color: rgb(255, 255, 255);
+  width: 70%;
+  height: 80%;
+
+} 
+.curso1{
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction:row;
+  padding-right: 10%;
+
+  width: 60%;
+  height: 80%;
+
+}
+.curso{
+
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-direction:row;
+
+  width: 70%;
+  height: 40%;
+
+}
+.descripcion{
+
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-direction:row;
+  font-family: Helvetica bold;
+  width: 70%;
+  height: 20%;
+
+}
+
+.fulltime{
+
+  color:  rgb(53, 242, 179);
+  font-family: Arial bold;
+  font-weight: 200;
+
+
+}
+
